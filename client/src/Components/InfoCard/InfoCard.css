@@ -1,0 +1,37 @@
+.InfoCard {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    background: var(--cardColor);
+    padding: 1rem;
+    border-radius: 1rem;
+    width: 90%;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.infoHead {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.infoHead > div:hover {
+    cursor: pointer;
+    color: var(--primaryColor);
+}
+
+.logout-button {
+    width: 7rem;
+    height: 2rem;
+    margin-top: 6rem;
+    align-self: flex-end;
+    background: var(--buttonBg);
+    color: white;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.logout-button:hover {
+    background: var(--accentColor);
+}

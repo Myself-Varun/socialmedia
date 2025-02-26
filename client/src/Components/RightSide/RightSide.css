@@ -1,0 +1,40 @@
+.RightSide {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    width: 100%;
+}
+
+.navIcons {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.navIcons > img {
+    width: 1.5rem;
+    height: 1.5rem;
+    cursor: pointer;
+}
+
+.navIcons > a > img {
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+}
+
+.rg-button {
+    height: 3rem;
+    width: 80%;
+    align-self: center;
+    background: var(--buttonBg);
+    color: white;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.rg-button:hover {
+    background: var(--accentColor);
+}
